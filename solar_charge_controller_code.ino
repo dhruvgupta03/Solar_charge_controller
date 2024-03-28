@@ -1,14 +1,5 @@
-
-
 ////////////////////////////////ARDUINO PWM SOLAR CHARGE CONTROLLER V-2.02///////////////////////////////////////////////////////////////////////////////
-//----------------------------------------------------------------------------------------------------
 
-  //  Author: Debasish Dutta
-  //          www.opengreenenergy.com
-  //  This code is for an arduino based Solar PWM charge controller ( V-2.0)
-  //  Credit :logic of 3 stage charging taken from http://jamesoid.com/pwm_charger_project/pwm_charger.ph
-  //  Last updated on 24/03/2020
-  //----------------------------------------------------------------------------------------------------
   // Arduino pins Connections----------------------------------------------------------------------------
   
     // A0 - Voltage divider to measure solar panel voltage
@@ -618,3 +609,8 @@ void lcd_display()
  lcd.print("Wh");
   
 }
+
+  //----------------------------------------------------------------------------------------------------
+  //  Credits: Debasish Dutta, www.opengreenenergy.com
+  //  This code is for an arduino based Solar PWM charge controller ( V-2.0)
+  //  Credit :logic of 3 stage charging taken from http://jamesoid.com/pwm_charger_project/pwm_charger.ph
